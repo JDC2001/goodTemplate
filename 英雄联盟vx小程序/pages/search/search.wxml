@@ -1,0 +1,24 @@
+<view class="container">
+    <view class="body-view">
+        <loading hidden="{{loading}}">加载中...</loading>
+    </view>
+    <modal class="modal" hidden="{{modal}}" no-cancel bindconfirm="modalChange">
+        <view>请输入关键字</view>
+    </modal>
+    <view class="searchArea flexWrap"> 
+        <input type="text" class="ipt_area" bindinput="inputKey" auto-focus="true"/>
+        <button class="btn_sch" hover-class="none" bindtap="searchFn">搜索</button>
+    </view>
+    <block>
+        <view class="user_list" wx:for="{{userInfo}}" wx:for-item="user">
+            <navigator url="../userDetail/userDetail?qquin={{user.qquin}}&vaid={{user.area_id}}">
+                <view class="dt">
+                    <view class="n">{{user.name}}:</view>
+                    <view class="area">{{user.aArea}} {{user.level}}级</view>
+                    <view class="dw">{{user.dwname}}</view>
+                    <progress percent="{{user.level/30*100}}" active  color = "#8ce21d" style="margin-bottom:10px;"/>
+                </view>
+            </navigator>
+        </view>
+    </block>
+</view>

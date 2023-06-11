@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">    
+    <view class="result-view">
+        <text class="result-text">{{result}}</text>
+        <span class='result-span green' wx:if='{{result}}'>平尺</span>
+    </view>
+    <view class="condition-view">
+        <text class="input-text">{{input}}</text>
+    </view>
+    <view class="number-view">
+        <button type="default" data-content="7" size="default" bindtap="tapNumber">7</button>
+        <button type="default" data-content="8" size="default" bindtap="tapNumber">8</button>
+        <button type="default" data-content="9" size="default" bindtap="tapNumber">9</button>
+        <button type="default" data-content="C" size="default" bindtap="clear" class='green bg'>AC</button>      
+        <button type="default" data-content="4" size="default" bindtap="tapNumber">4</button>
+        <button type="default" data-content="5" size="default" bindtap="tapNumber">5</button>
+        <button type="default" data-content="6" size="default" bindtap="tapNumber">6</button>
+        <button type="default" data-content="×" size="default" bindtap="tapOperateSymbol" class='white bg'>×</button>
+        <button type="default" data-content="1" size="default" bindtap="tapNumber">1</button>
+        <button type="default" data-content="2" size="default" bindtap="tapNumber">2</button>
+        <button type="default" data-content="3" size="default" bindtap="tapNumber">3</button>
+        <button type="default" data-content="=" size="default" bindtap="tapOperateSymbol" class="two-row">=</button>
+        <button type="default" data-content="." size="default" bindtap="tapNumber">.</button>
+        <button type="default" data-content="0" size="default" bindtap="tapNumber">0</button>
+        <button type="default" data-content="X" size="default" bindtap="removeLast"><icon type="clear" /></button>       
+    </view>
+</view>

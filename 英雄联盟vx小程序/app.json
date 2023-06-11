@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/friend/friend",
+    "pages/detail/detail",
+    "pages/find/find",
+    "pages/me/me",
+    "pages/map/map",
+    "pages/hero/hero",
+    "pages/search/search",
+    "pages/userDetail/userDetail",
+    "pages/free/free"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "英雄联盟",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "资讯",
+        "iconPath": "./images/lol.png",
+        "selectedIconPath": "./images/lol_hover.png"
+      },
+      {
+        "pagePath": "pages/friend/friend",
+        "text": "好友",
+        "iconPath": "./images/friend.png",
+        "selectedIconPath": "./images/friend_hover.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./images/find.png",
+        "selectedIconPath": "./images/find_hover.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "./images/me.png",
+        "selectedIconPath": "./images/me_hover.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,152 @@
+@media (max-width:1200px){	
+.topbar span{margin-right:10px}
+.topbar{padding:15px 0 15px 30px}
+.course-bar span{padding:13px 23px}
+.course-bar{padding-right:15px}
+.prog-icon{width:68px}
+.prog-icon span{height:68px;line-height:85px;width:68px}
+.event-img > img{width:500px}
+.event-detail{padding:20px 130px 20px 40px}
+.post-detail h3{padding:0 10px}
+.selectors-wrapper{padding:0 10px}
+.edu-detail h3{padding:0 30px}
+.edu-detail p{padding:0 20px}
+.fancy-gallery .row{margin:0 -3px}
+.edu-col{padding:0 3px}
+.edu-col a{margin-bottom:6px}
+.edu-detail > i{padding:0 20px}
+.featured-courses.style2 .edu-detail h3{padding:0 20px}
+.featured-courses.style2 .edu-detail .admin-name{padding:15px 20px 30px}
+.abt-course .button.active, .abt-event .button.active{min-width:0;padding:17px 30px}
+.simple-gallery-img > h5{padding:0 20px}
+.member-intro-description{padding-right:30px;width:100%}
+}
+
+
+@media (max-width:980px){
+header{display:none}
+.responsive-header{display:block}
+.easyedu-services .row > div{display:inline-block;margin:0 -2px;width:50%}
+.edu-service{padding:0}
+.edu-tabs .row > div{float:left;width:100%}
+.selectors-inner a{float:left;width:33.334%}
+.explore-edu{margin-top:70px;text-align:center}
+.explore-edu h2 strong{display:block}
+.easyedu-counter .row > div{float:left;width:50%}
+.featured-courses .row > div{display:inline-block;margin:0 -2px;width:50%}
+.featured-courses{text-align:center}
+.search-course form{float:left;width:100%}
+.search-course form input{margin-bottom:20px}
+.search-course form button{width:100%}
+.educational-programs{margin:0;padding:0}
+.educational-programs .row > div{float:left;width:50%}
+.mockup img{margin:0;max-width:100%;width:auto}
+.educational-staff .row > div{display:inline-block;margin:0 -2px;text-align:left;width:50%}
+.educational-staff{padding:0;text-align:center}
+.event-img{display:unset;float:left;width:100%}
+.event-img img{width:100%}
+.event-detail{display:unset;float:left;padding:50px 130px 50px 30px;width:100%}
+.edu-blog .row > div{display:inline-block;margin:0 -2px;width:50%}
+footer .widget, footer .widget:last-child{float:left;margin-bottom:60px;width:100%}
+.edu-gallery > div{float:left;width:11.112%}
+.newsletter-widget button{width:100%}
+.bottom-footer p{margin-bottom:10px;text-align:center;width:100%}
+.bottom-footer ul{text-align:center;width:100%}
+.bottom-footer ul li{display:inline-block;float:none}
+.edu-blog{text-align:center}
+.featured-courses .row > .masonary{float:left;margin:0;width:100%}
+.featured-courses .row > .masonary > div{display:inline-block;margin:0 -2px;width:50%}
+.options li{width:50%}
+.options li a, .options li a.selected{padding:14px 30px}
+.options li a.selected:before{left:10px;top:18px}
+.register-video{padding:0}
+.edu-col{float:left;width:50%}
+aside.sidebar{float:left;margin-top:60px;width:100%}
+.touch{margin-bottom:40px}
+.touch ul li p{padding-right:0}
+.simple-gallery .row > div,
+.simple-gallery .row > div.masonary2 > div{float:left;width:50%}
+.simple-gallery{padding:0 15px}
+.simple-gallery .row > div.masonary2{width:100%}
+}
+
+
+@media (max-width:767px){
+.container,.block .container{padding:0 15px}
+.registration{width:100%;margin-top:10px;text-align:center}
+.registration a{float:none;display:inline-block}
+.responsive-header .topbar span{float:none;display:inline-block;margin:0 6px}
+.responsive-header .topbar{text-align:center}
+.title{width:100%}
+.featured-courses .row > div{float:left;width:100%;margin:0}
+.educational-staff .row > div{float:left;width:100%;margin:0}
+.edu-blog .row > div{float:left;width:100%;margin:0}
+.owl-nav > div, .owl-nav > div.owl-next{margin-left:0;margin-right:0}
+.logos-carousel{padding:0 70px}
+.edu-gallery > div{width:33.334%}
+.prog-icon{display:inline-block;float:none}
+.prog-detail{display:unset;float:left;padding:30px 0 0;width:100%}
+.program{text-align:center}
+.featured-courses .row > .masonary > div{width:100%;margin:0;float:left}
+.register-video:before{height:20%}
+.register-video .button{margin-bottom:30px}
+.pagetop-inner{float:left;padding:20px 0;position:relative;top:0;width:100%;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.detail-page{padding:0}
+.single-post-img{margin-left:0;width:100%}
+blockquote{margin-left:0;width:100%}
+.author-detail{display:unset;float:left;margin-top:-40px;padding:60px 30px 30px;width:100%}
+.edu-author > img{display:unset;padding:0}
+.comment-img{display:table}
+.comment-detail{display:unset;float:left;margin-top:-40px;padding:50px 40px 30px;width:100%}
+.comment-detail:before{width:100%}
+.author-detail:before{width:100%}
+.edu-comments ul ul{padding:0}
+.tags{margin-bottom:30px;width:100%}
+.share-post{float:left;width:100%;max-width:none}
+.course-teacher, .event-org{width:100%}
+.review{width:100%}
+.abt-course .button.active, .abt-event .button.active{width:100%}
+.single-post-img .course-price{font-size:13px;padding:6px 20px;top:0}
+.member-intro-description{display:unset;float:left;padding:0;width:100%}
+.member-intro-description .connected{margin:10px 0 0;width:100%;padding:30px 25px}
+.member-img{display:unset;float:left;margin-top:40px;width:100%}
+.member-img img{width:100%}
+.layer1{font-size:8px!important}
+.layer3{font-size:9px!important;line-height:11px!important}
+.layer7{font-size:8px!important;line-height:11px!important}
+.layer4{font-size:9px!important;padding:5px 10px!important}
+}
+
+@media (max-width:480px){
+.title h2{font-size:25px}
+.easyedu-services .row > div{float:left;margin:0;width:100%}
+.button-set a{margin:0 0 15px;width:100%}
+.button-set a:last-child{margin:0}
+.options .button-set a{margin:0 0 30px}
+.easyedu-counter .row > div{width:100%}
+.educational-programs .row > div{width:100%}
+.event-detail{padding:15px}
+.event-date{display:table;float:none;margin-bottom:20px;padding:0;text-align:left}
+.event-btn{float:left;left:0;margin-top:20px;position:relative;right:auto;top:0;
+    -webkit-transform:translate(0);
+    -moz-transform:translate(0);
+    -ms-transform:translate(0);
+    -o-transform:translate(0);
+    transform:translate(0);
+}
+.options li{width:100%}
+.parallax-title br{float:left}
+blockquote{padding:40px}
+.event-intro-details{display:unset;float:left;width:100%}
+.event-intro .event-date{text-align:left}
+.events-page .event-detail{padding:15px}
+.simple-gallery .row > div,
+.simple-gallery .row > div.masonary2 > div{width:100%}
+}
+

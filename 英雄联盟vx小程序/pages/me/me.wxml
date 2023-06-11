@@ -1,0 +1,32 @@
+<view class="container">
+    <view class="item">
+        <view class="img">
+            <image src = "../../images/setting.png"></image>
+        </view>
+        <navigator url="" hover-class = "navHover">
+            <view class = "tName">
+                设置
+            </view>
+        </navigator>
+    </view>
+    <view class="item">
+        <view class="img">
+            <image src = "../../images/location.png"></image>
+        </view>
+        <navigator url="../map/map"  hover-class = "navHover" style="width:100%;">
+            <view class = "tName">
+                位置
+            </view>
+        </navigator>
+    </view>
+    <view class="item">
+        <view class="img">
+            <image src = "../../images/tool.png"></image>
+        </view>
+        <navigator url=""  hover-class = "navHover">
+            <view class = "tName">
+                工具
+            </view>
+        </navigator>
+    </view>
+</view>

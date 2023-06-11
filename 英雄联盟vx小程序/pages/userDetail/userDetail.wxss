@@ -1,0 +1,66 @@
+.container{
+    position: relative;
+}
+
+.head{
+    line-height: 30px;
+    padding-top: 5px;
+    font-size: 18px;
+}
+.content{
+    width: 100%;
+}
+
+.itemList{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: row;
+    justify-content: center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    -ms-justify-content:center;
+    padding: 5px;
+    background: #fff;
+    margin: 5px 0;
+}
+
+.itemList .avator{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+
+.itemList .ct{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.itemList .ct .win_lose{
+    display: block;
+    line-height: 24px;
+}
+
+.itemList .ct .win_lose .kda{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.itemList .ct .gamestyle{
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.win{
+    color: #45c3bf
+}
+
+.lose{
+    color: #f3747e;
+}

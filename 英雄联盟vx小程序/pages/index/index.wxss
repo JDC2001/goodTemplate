@@ -1,0 +1,92 @@
+page{
+    background: #eee;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.dateTips{
+    padding-left: 20px;
+}
+/*Little Application style*/
+swiper{
+    width: 100%;
+}
+.imageCss{
+    width: 100%;
+}
+.wrapper{
+    width:100%;
+    margin: 5px auto 0;
+}
+.viewOther{
+    width: 100%;
+    position: relative;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cat_btn{
+    width: 47%;
+    height: 40px;
+    margin: 0 1%;
+    padding-left: 3%;
+    color: #fff;
+}
+.cat_btn .t{
+    display: block;
+    line-height: 20px;
+    font-size: 0.8em;
+    padding-top: 3px;
+}
+.cat_btn .sub{
+    line-height: 14px;
+    font-size: 0.7em;
+    display: block;
+}
+.cat_btn_left{
+    background-color: #03bdc9;
+    background-image:  url("../../images/btn_left.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+}
+.cat_btn_right{
+    background: #80c23c;
+    background-image: url("../../images/btn_right.png");
+    background-position: right center;
+    background-repeat: no-repeat;   
+}
+.innerCt{
+   height: 1600px;
+}
+/*itemList*/
+.itemList{  
+    margin: 10px 5px;
+    padding: 8px 5px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    overflow: hidden;
+    background: #fff;
+}
+
+
+.itemList  .pic , .itemList  .pic image{
+    width: 100px;
+    height: 80px;
+    display: block
+}
+.itemList  .txt{
+    margin-left: 5px;
+    display: block;
+    height: 80px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+}

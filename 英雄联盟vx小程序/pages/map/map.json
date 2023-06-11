@@ -1,0 +1,9 @@
+{
+    "window":{
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "位置",
+        "navigationBarTextStyle":"black"
+        
+    }
+}

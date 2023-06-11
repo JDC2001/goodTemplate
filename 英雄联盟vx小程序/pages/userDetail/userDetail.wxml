@@ -1,0 +1,20 @@
+<view class="container">
+    <!--userDetail-->
+    <view class="head">
+        <text>最近10场战斗记录</text>
+    </view>
+    
+    <view class="content">
+        <block wx:for="{{battle_list}}" wx:for-item="array">
+            <view class="itemList">
+                <view>
+                    <image class="avator" src="http://ossweb-img.qq.com/images/lol/img/champion/{{array.name}}.png"></image>
+                </view>
+                <view class="ct">
+                    <view class="win_lose win">{{array.win === 1 ?"胜利":"失败"}}<view class="kda">10/0/0</view></view>
+                    <view class="gamestyle">{{array.game_type}}</view>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>

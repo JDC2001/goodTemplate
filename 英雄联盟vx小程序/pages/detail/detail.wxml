@@ -1,0 +1,11 @@
+<view class = "container">
+    <view class = "title_head">{{detail[1].title}}</view>
+    <view class = "info_body">
+        <view class="picArea">
+            <image src="{{detail[1].img}}"></image>
+            <text style="display:block;text-align:center;line-height:24px;">{{detail[1].imgsource}}</text>
+        </view>
+        
+        {{detail[0].infoBody}}
+    </view>
+</view>

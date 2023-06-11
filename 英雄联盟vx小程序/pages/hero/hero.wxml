@@ -1,0 +1,47 @@
+<view class="container">
+    <view class="heroName">{{name}}{{title}}</view>
+    <video src="{{skins[0].source}}"></video>
+    <!--<swiper autoplay = "false">
+        <block>
+            <swiper-item>
+                
+            </swiper-item>
+        </block>
+    </swiper>-->
+    <view class="hero">
+        <view class="ps">
+            Attack<progress percent="{{info.attack/10*100}}" color="#c70000" active/>
+        </view>
+        <view class="ps">
+            Defence<progress percent="{{info.defense/10*100}}" color="#25c700" active />
+        </view>
+        <view class="ps">
+            Difficulty<progress percent="{{info.difficulty/10*100}}" color="pink"  active/>
+        </view>
+        <view class="ps">
+            Magic<progress percent="{{info.magic/10*100}}" color="#2c64e2" active/>
+        </view>
+    </view>
+    <view class="heroInfo">
+        <view class="item_s">
+            <view class="name">被动</view>
+            <view class="tooltip">{{passive.description}}</view>
+        </view>
+        <view class="item_s">
+            <view class="name">{{spells[0].name}}</view>
+            <view class="tooltip">{{spells[0].tooltip}}</view>
+        </view>
+        <view class="item_s">
+            <view class="name">{{spells[1].name}}</view>
+            <view class="tooltip">{{spells[1].tooltip}}</view>
+        </view>
+        <view class="item_s">
+            <view class="name">{{spells[2].name}}</view>
+            <view class="tooltip">{{spells[2].tooltip}}</view>
+        </view>
+        <view class="item_s">
+            <view class="name">{{spells[3].name}}</view>
+            <view class="tooltip">{{spells[3].tooltip}}</view>
+        </view>
+    </view>
+</view>

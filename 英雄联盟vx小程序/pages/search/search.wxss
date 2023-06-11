@@ -1,0 +1,50 @@
+.container{
+    padding: 10px 0;
+}
+
+.searchArea{
+    width: 100%;
+}
+
+.ipt_area{
+    width: 97%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #eee;
+    padding-left: 2%;
+}
+
+.btn_sch{
+    width:20%;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.user_list{
+    
+    width: 100%;
+}
+
+.user_list .dt{
+    line-height: 40px;
+    padding:0 20px;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.user_list .dt .n , .user_list .dt .area , .user_list .dt .prs , .user_list .dt .dw{
+    display: block;
+}
+.user_list .dt .n , .user_list .dt .area ,.user_list .dt .dw{
+    display: inline-block;
+}
+.user_list .dt .dw{
+    margin-left: 10px;
+}
+
+

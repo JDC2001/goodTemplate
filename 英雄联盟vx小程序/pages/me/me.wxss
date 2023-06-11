@@ -1,0 +1,38 @@
+
+page{
+    background: #eee;
+}
+
+.container{
+    width:100%;
+}
+
+.item{
+    width: 100%;
+    margin-top: 5px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.item .img , .item .tName{
+    overflow: hidden;
+}
+.item .img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.item .tName{
+    line-height:40px;
+    padding-left: 10px;
+}
+.item .img , .item .img image{
+    width: 20px;
+    height: 20px;
+}
+
+.navHover{
+    background: #fff;
+}

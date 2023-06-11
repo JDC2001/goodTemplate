@@ -1,0 +1,43 @@
+page{
+    background: #eee;
+}
+.heroName{
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+.heroInfo{
+    position: relative;
+}
+.heroInfo .item_s{
+    padding:10px;
+    margin: 5px;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+}
+.heroInfo .item_s .name{
+    line-height: 24px;
+}
+.heroInfo .item_s .tooltip{
+    line-height: 20px;
+}
+.heroInfo .intro{
+    font-size: 12px;
+}
+.heroInfo .img{
+    width: 120px;
+    height: 120px;
+}
+.hero{
+    width: 96%;
+    background: #fff;
+    margin: 5px 2%;
+    border-radius: 5px;
+}
+.hero .ps{
+    margin:10px;
+}

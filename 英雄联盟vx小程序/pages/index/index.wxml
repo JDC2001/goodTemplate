@@ -1,0 +1,108 @@
+<view class = "container">
+    <loading hidden="{{hidden}}">
+        加载中...
+    </loading>
+    <toast hidden="{{toast1Hidden}}" duration="3000">
+        加载失败，请稍后重试
+    </toast>
+    <swiper indicator-dots="{{slide.indicatorDots}}"
+        autoplay="{{slide.autoplay}}" interval="{{slide.interval}}" duration="{{slide.duration}}">
+        <block wx:for = "{{slide.imgUrls}}" wx:for-item="item">
+            <swiper-item>
+                <image src="{{item}}" class="imageCss" width="100%" height="150"/>
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="wrapper">
+        <view class="viewOther">
+            <view class="cat_btn cat_btn_left">
+                <navigator url = "">
+                    <text class="t">赛事</text>
+                    <text class="sub">2016全球总决赛</text>
+                </navigator>
+            </view>
+            <view class="cat_btn cat_btn_right">
+                <navigator url = "">
+                    <text class="t">视频</text>
+                    <text class="sub">精彩击杀</text>
+                </navigator>
+            </view>
+        </view>
+        <block  wx:for = "{{lolData}}" wx:for-item = "infoArray" wx:for-index = "infoIndex">
+            <navigator url="../detail/detail?id={{infoArray.id}}">
+                <view class = "itemList"  data-id="{{infoIndex}}">
+                    <view class="pic">
+                        <image src="{{infoArray.img}}" />
+                    </view>
+                    <view class="txt">{{infoArray.title}}</view>
+                </view>
+            </navigator>
+        </block>
+    </view>
+    <!--In 'Swiper-item' we need to modyfiy this height value to extend that wrap-->
+    <!--<swiper class = "innerCt">
+        <block>
+            <swiper-item>
+                <view class="wrapper">
+                    <view class="viewOther">
+                        <view class="cat_btn cat_btn_left" bindtap = "nwsDt">
+                            <text class="t">赛事</text>
+                            <text class="sub">2016全球总决赛</text>
+                        </view>
+                        <view class="cat_btn cat_btn_right" bindtap = "vdsDt">
+                            <text class="t">视频</text>
+                            <text class="sub">精彩击杀</text>
+                        </view>
+                    </view>
+                    <block  wx:for = "{{lolData}}" wx:for-item = "infoArray" wx:for-index = "infoIndex">
+                        <navigator url="../detail/detail?id={{infoArray.id}}">
+                            <view class = "itemList"  data-id="{{infoIndex}}">
+                                <view class="pic">
+                                    <image src="{{infoArray.images[0]}}" />
+                                </view>
+                                <view class="txt">{{infoArray.title}}</view>
+                            </view>
+                        </navigator>
+                    </block>
+                </view>
+            </swiper-item>
+            <swiper-item>
+                <block  wx:for = "{{p2Data}}" wx:for-item = "infoArray" wx:for-index = "infoIndex">
+                    <navigator url="../detail/detail?id={{p2Data.id}}">
+                        <view class = "itemList"  data-id="{{infoIndex}}" >
+                            <view class="pic">
+                                <image src="{{infoArray.thumbnail}}" />
+                            </view>
+                            <view class="txt">{{infoArray.description}}</view>
+                        </view>
+                    </navigator>
+                </block>
+            </swiper-item>
+            
+            <swiper-item>
+                <block  wx:for = "{{lolData}}" wx:for-item = "infoArray" wx:for-index = "infoIndex">
+                    <navigator url="../detail/detail?id=">
+                        <view class = "itemList" wx:if = "{{infoArray.images.length>0}}"  data-id="{{infoIndex}}">
+                            <view class="pic">
+                                <image src="{{infoArray.images[0]}}" />
+                            </view>
+                            <view class="txt">{{infoArray.title}}</view>
+                        </view>
+                    </navigator>
+                </block>
+            </swiper-item>
+            <swiper-item>
+                <block  wx:for = "{{lolData}}" wx:for-item = "infoArray" wx:for-index = "infoIndex">
+                    <navigator url="../detail/detail?id=">
+                        <view class = "itemList"  data-id="{{infoIndex}}">
+                            <view class="pic">
+                                <image src="{{infoArray.images[0]}}" />
+                            </view>
+                            <view class="txt">{{infoArray.title}}</view>
+                        </view>
+                    </navigator>
+                </block>
+            </swiper-item>
+        </block>
+    </swiper>-->
+</view>

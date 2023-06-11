@@ -1,0 +1,81 @@
+page{
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    height: 1255rpx;
+    /*background-color: red;*/
+    border: 1px solid transparent;
+    /*margin-top: -188rpx;*/
+    /*padding-top: 188rpx;*/
+    box-sizing: border-box;
+} 
+
+
+.result-view {
+    height: 186.3rpx;
+    width: 100%;
+    text-align: right;
+    margin-top: 200rpx;
+    line-height: 186.3rpx;
+}
+.condition-view {
+    height: 186.3rpx;
+    width: 100%;
+    border-top: 1px solid #eee;
+    text-align: right;
+    line-height: 186.3rpx;
+}
+
+.input-text {
+    font-size: 40px;
+    color: #7F7F7F;  
+    padding-right: 20px;
+
+}
+.result-text {
+    font-size: 60px;
+    padding-right: 10px;
+}
+
+.result-span{
+    font-size: 40px;
+    padding-right: 20px;
+}
+
+.number-view {
+    height: 675rpx;
+}
+
+.number-view button {
+    float: left;
+    width: 25%;
+    height: 25%;
+    /*padding-top: 37.5rpx;*/
+    line-height: 190rpx;
+    background-color: #232323;
+    color: #BEBEBE;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+.number-view .two-row {
+    height: 50%;
+    line-height: 380rpx;
+    background-color: #01B051;
+    font-weight: 700;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+.green{
+    color: #01B051 !important;
+}
+.white{
+    color: #FCFCFC !important;
+    font-size: 35px;
+}
+.bg{
+    background-color: #191919 !important;
+}

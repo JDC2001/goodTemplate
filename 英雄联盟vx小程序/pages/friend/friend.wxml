@@ -1,0 +1,26 @@
+<view class="container">
+    <block>
+        <view class="friend_item" bindtap="clickFn" id ="free">
+            <view class="t">本周周免</view>
+            <image class="icon" src="../../images/{{fnGroup.freeshow ? 'top':'up'}}.png"></image>
+        </view>
+        <view class ="friend_list {{fnGroup.freeshow ? 'show':''}}" wx:for="{{free}}" wx:for-item="freeitem" wx:for-index = "idx">
+            <navigator url ="../hero/hero?param=1&id={{freeitem.id}}" hover-class="nav-hover">
+                <view class="dt">
+                    <view class="pic">
+                        <image src="http://ossweb-img.qq.com/images/lol/img/champion/{{freeitem.pic}}" style = "width:40px; height:40px;"></image>
+                    </view>
+                    <view class="name">{{freeitem.name}}</view>
+                </view>
+            </navigator>
+        </view>
+    </block>
+    <block>
+    <navigator url = "../search/search" class="nav">    
+        <view class="friend_item" bindtap="clickFn" id ="rank" style = "width:100%;">
+            <view class="t">召唤师查询</view>
+            <image class="icon" src="../../images/right.png"></image>
+        </view>
+    </navigator>  
+    </block>
+</view>
