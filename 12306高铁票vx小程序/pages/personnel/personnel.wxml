@@ -1,0 +1,76 @@
+<!--pages/personnel/personnel.wxml-->
+<view class="page-top"></view>
+<view class="bg">
+    <view class="container">
+        <view class="query-box">
+            <view class="query-row extension">
+                <view class="extension-item">
+                    <image src="../../images/personnel-extension1.png"></image>
+                    <text>火车票订单</text>
+                </view>
+                <view class="extension-item">
+                    <image src="../../images/personnel-extension2.png"></image>
+                    <text>机票订单</text>
+                </view>
+                <view class="extension-item">
+                    <image src="../../images/personnel-extension3.png"></image>
+                    <text>汽车票订单</text>
+                </view>
+                <view class="extension-item">
+                    <image src="../../images/personnel-extension4.png"></image>
+                    <text>其他订单</text>
+                </view>
+            </view>            
+        </view>          
+    </view>
+    <view class="personnel-item" style="box-shadow:0rpx -20rpx 50rpx 0rpx #eee;margin-bottom:20rpx;">
+        <image src="../../images/icon/treasure.png"></image>
+        <view class="personnel-descript" style="border:none;">
+            <text style="font-weight:800">我的财富</text>
+            <text class="action">领取加速包</text>
+        </view>
+    </view>
+    <view class="personnel-item">
+        <image src="../../images/icon/trip.png"></image>
+        <view class="personnel-descript">
+            <text>出行服务</text>
+            <text class="action">正晚点/时刻表</text>
+        </view>
+    </view>
+    <view class="personnel-item">
+        <image src="../../images/icon/invite.png"></image>
+        <view class="personnel-descript">
+            <text>邀请好友</text>
+            <text class="action">一起来抢票</text>
+        </view>
+    </view>
+    <view class="personnel-item">
+        <image src="../../images/icon/message.png"></image>
+        <view class="personnel-descript">
+            <text>消息中心</text>
+            <text class="action"></text>
+        </view>
+    </view>
+    <view class="personnel-item">
+        <image src="../../images/icon/advise.png"></image>
+        <view class="personnel-descript">
+            <text>产品意见</text>
+            <text class="action"></text>
+        </view>
+    </view>
+    <view class="personnel-item">
+        <image src="../../images/icon/more.png"></image>
+        <view class="personnel-descript" style="border:none">
+            <text>更多</text>
+            <text class="action"></text>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+

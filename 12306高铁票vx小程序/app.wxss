@@ -1,0 +1,151 @@
+/**app.wxss**/
+.container {
+  /*width: 100%;*/
+  margin: 0 20rpx;
+  box-sizing: border-box;
+  /*border-radius: 50rpx;*/
+} 
+.bg{
+  width: 100%;
+  height: 100%;
+  background-color: #F4F4F4;
+  display: inline-block;
+}
+
+.page-top {
+  width: 100%;
+  background-color: #FF5110;
+  height: 200rpx;
+}
+
+.query-box {
+  flex-direction: column;
+  padding: 0 40rpx;
+  background-color: #fff;
+}
+
+.query-row {
+  padding: 30rpx 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.query-history {
+  width: 100%;
+  display: flex;
+}
+.query-history scroll-view {
+  height: 70rpx;
+  white-space:nowrap;
+}
+
+.query-history text {
+  margin: 20rpx 20rpx 20rpx 0;
+  display: inline-block;
+  font-size: 30rpx;
+  color: #999999;
+}
+.query-head{
+  height: 100rpx;
+  padding: 0 40rpx;
+  /*background-color: #898989;
+  opacity: 0.9;*/
+  background: url("../../images/tab-bg.png");
+  margin-top: -35rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 20rpx 20rpx 0 0;
+}
+.tab{
+    width:50%;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 40rpx;
+    color:white;
+}
+
+.tag{
+  background: url("../../images/tab.png");
+  background-size: cover;
+  margin-top: -10rpx;
+  padding-top: 10rpx;
+  color:black;
+  opacity: 1.0;
+}
+
+.switch image{
+  width: 50px;
+  height: 50px;
+}
+.query-city {
+  border-bottom: 1rpx solid #E5E5E5;
+}
+
+.begin-city,.end-city{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.begin-city {
+  justify-content: flex-start;
+}
+.end-city {
+  justify-content: flex-end;
+}
+.city{
+  font-size: 50rpx;
+  font-weight: 900;
+}
+.city-descript {
+  display: block;
+  font-size: 30rpx;
+  margin-top: -20rpx;
+  margin-bottom: 20rpx;
+  color: #A7A7A7;
+  font-weight: 600;
+}
+.query-date{
+  padding:40rpx 0;
+  border-bottom: 1rpx solid #E5E5E5;
+}
+.date {
+  font-size: 46rpx;
+  font-weight: 700;
+}
+.day {
+    color: #5194E6;
+    font-weight: 600;
+}
+.day::after{
+    content: " >";
+}
+.btn-query {
+  padding: 0;
+}
+.btn-query button {
+  width:100%;
+}
+.extension {
+  margin: 20rpx 0;
+}
+.extension image {
+  height:100rpx; 
+  width: 100rpx;
+}
+.extension-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.extension-item text {
+  font-size: 24rpx;
+  margin: 20rpx 0;
+  color: #696969;
+}
+
+
+
+

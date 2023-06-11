@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/train/train",
+    "pages/personnel/personnel",
+    "pages/coach/coach",
+    "pages/plane/plane"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#5D5D5D",
+    "selectedColor": "#5495E6",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/train/train",
+        "text": "火车票",
+        "iconPath": "./images/tabbar/train.png",
+        "selectedIconPath": "./images/tabbar/train-selected.png"
+      },
+      {
+        "pagePath": "pages/plane/plane",
+        "text": "飞机票",
+        "iconPath": "./images/tabbar/plane.png",
+        "selectedIconPath": "./images/tabbar/plane-selected.png"
+      },
+      {
+        "pagePath": "pages/coach/coach",
+        "text": "汽车票",
+        "iconPath": "./images/tabbar/coach.png",
+        "selectedIconPath": "./images/tabbar/coach-selected.png"
+      },
+      {
+        "pagePath": "pages/personnel/personnel",
+        "text": "个人中心",
+        "iconPath": "./images/tabbar/personnel.png",
+        "selectedIconPath": "./images/tabbar/personnel-selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

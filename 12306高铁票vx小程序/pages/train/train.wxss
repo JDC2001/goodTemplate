@@ -1,0 +1,15 @@
+/* pages/train/train.wxss */
+
+.train-checked {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.train-checked text {
+    margin: 0 20rpx;
+    font-weight: 600;
+}
+
+.bg{
+    padding-bottom: 9rpx;
+}
